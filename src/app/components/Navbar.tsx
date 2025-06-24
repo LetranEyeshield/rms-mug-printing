@@ -47,11 +47,11 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="nav-div relative z-[9999] self-end">
+      <div className="nav-div relative z-[9] self-end">
         {/* Hamburger Button */}
         <button
           onClick={handleToggle}
-          className="menu-button p-2 bg-gray-800 text-white rounded-md md:hidden"
+          className="menu-button relative z-[99] p-2 bg-gray-800 text-white rounded-md md:hidden"
         >
           {menuOpen ? "Close ✕" : "Menu ☰"}
         </button>
