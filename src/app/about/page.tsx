@@ -18,9 +18,6 @@ export default function About() {
             focus on customer satisfaction, we turn your vision into beautifully
             crafted keepsakes that leave a lasting impression.
           </p>
-          <Link href="/about" className="page-buttons">
-            Learn More
-          </Link>
         </div>
         <div className="about-section-right">
           <img src="/images/about-img.jpg" alt="RM's Mug Printing Logo 2" />

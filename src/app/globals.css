@@ -81,19 +81,18 @@ h2 {
   margin: 0 0 0 90px;
 }
 
-#navbar ul li a {
+.navbar ul li a {
   padding: 20px 25px;
   font-size: 1.25rem;
   color: whitesmoke;
 }
 
-#navbar ul li a:hover {
+.navbar ul li a:hover {
   background: whitesmoke;
   color: grey;
   transform: 0.3 s ease-in-out;
   border-radius: 25px;
 }
-
 #banner {
   position: relative;
 }
