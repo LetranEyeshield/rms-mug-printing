@@ -1,11 +1,10 @@
 "use client";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const pathname = usePathname();
-  const [currentPath, setCurrentPath] = useState("");
   const [menuOpen, setMenuOpen] = useState(false);
 
   // You can move this array outside the component
